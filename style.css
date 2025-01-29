@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    background-color: #FCFFE0; /* light yellow */
+    color: #333; /* dark text for contrast */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    background-color: #BACD92; /* green */
+    padding: 50px 0;
+}
+
+.navbar {
+    background-color: #4e914e; /* darker green */
+    padding: 0.5rem 1rem; /* decrease padding */
+}
+
+.navbar-brand {
+    font-size: 2rem; /* increase font size */
+}
+
+.nav-link {
+    color: #000 !important; /* black */
+}
+
+footer {
+    background-color: #5A479F; /* darkest green */
+    color: #fff; /* white text for footer */
+}
+
+.portrait-frame {
+    border: 10px solid #333; /* dark border */
+    padding: 10px;
+    background-color: #fff; /* white background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* shadow effect */
+}
+
+.lovers-quarrel-regular {
+    font-family: "Lovers Quarrel", serif;
+    font-weight: 400;
+    font-style: normal;
+}
